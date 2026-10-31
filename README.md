@@ -46,7 +46,7 @@ Possible storm cellars (hatches), sewers / storm drains, escape gates and civili
 Turn on the optional **A–G / 1–8 grid**. It's traced from the in-game paper map, so the squares match what your teammates see in-game.
 
 ### Grid search
-Type a square such as **C6** into the search box and press Enter. The map jumps to that square and highlights it. You can also hover a marker to see its name and grid square.
+Type a square such as **C6** into the search box and press Enter. The map jumps to that square and highlights it.
 
 <p align="center">
   <img src="docs/images/screenshots/illustrated-grid.jpg" alt="Illustrated view with the game grid" width="49%">
