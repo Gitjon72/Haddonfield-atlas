@@ -1,91 +1,117 @@
-# Haddonfield Atlas
+<p align="center">
+  <img src="docs/images/banner.jpg" alt="Haddonfield Atlas — free unofficial community map for Halloween: The Game" width="100%">
+</p>
 
-**Haddonfield Atlas** is a free, unofficial interactive mapping companion for **Halloween: The Game**. It is built to make map knowledge easier to find, organize, and use while playing.
+<p align="center">
+  <a href="https://gitjon72.github.io/Haddonfield-atlas/"><b>Open the Atlas</b></a> ·
+  <a href="https://github.com/Gitjon72/Haddonfield-atlas/releases/latest">Latest release</a> ·
+  <a href="https://github.com/Gitjon72/Haddonfield-atlas/issues">Report a problem or discovery</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
 
-## Open Haddonfield Atlas
+---
+
+**Haddonfield Atlas** is a free, unofficial interactive mapping companion for **Halloween: The Game**. It's built to make map knowledge easy to find, organize, and use while you play.
 
 **Live site:** https://gitjon72.github.io/Haddonfield-atlas/
 
-No account is required. Open the site, choose a map, and use the Atlas alongside the game.
+No account and no install. Open the site, choose a map, and keep it next to the game.
+
+<p align="center">
+  <img src="docs/images/screenshots/home.jpg" alt="Choose your map" width="49%">
+  <img src="docs/images/screenshots/tower-farm.jpg" alt="Tower Farm with escape markers" width="49%">
+</p>
 
 ## Maps
 
-Haddonfield Atlas currently includes all four maps:
+All five maps are included:
 
-- Haddonfield Heights
-- Haddonfield Town Center
-- Orange Grove Estates
-- East Haddonfield
+| Map | Area |
+| --- | --- |
+| Haddonfield Heights | Residential |
+| Haddonfield Town Center | Downtown |
+| Orange Grove Estates | Suburban |
+| East Haddonfield | Rural / Industrial |
+| **Tower Farm** | Farms / Trailer Park |
 
 ## Features
 
 ### Interactive maps
+Pan and zoom through each map. Markers and building labels stay anchored to their locations at every zoom level. When space gets tight, labels shrink or hide instead of drifting away from their buildings.
 
-Pan and zoom through each map while keeping map markers anchored to their locations. Use the built-in map information to find known locations, landmarks, streets, escape-related areas, and other useful points of interest.
+### Escape locations
+Possible storm cellars (hatches), sewers / storm drains, escape gates and civilian escape car spawns are shown as separate categories, each with its own filter. Spawns are randomized, so these are **possible** locations — check the current match.
+
+### The real game grid
+Turn on the optional **A–G / 1–8 grid**. It's traced from the in-game paper map, so the squares match what your teammates see in-game.
+
+### Grid search
+Type a square such as **C6** into the search box and press Enter. The map jumps to that square and highlights it.
+
+<p align="center">
+  <img src="docs/images/screenshots/illustrated-grid.jpg" alt="Illustrated view with the game grid" width="49%">
+  <img src="docs/images/screenshots/grid-search.jpg" alt="Grid search jumping to C6" width="49%">
+</p>
+
+### Illustrated view
+Switch any map to an **Illustrated** style from the Filters panel. It's the same map with the same buildings, outlines, markers and grid, just easier to read in daylight. The original dark view stays the default.
 
 ### Search and filters
-
-Search locations and filter visible markers so you can focus on the information you need without covering the map in every available marker at once.
-
-### Grid references
-
-Use the optional **A–J / 1–10 grid** for quick map references and easier communication about locations.
+Search streets, houses, items and locations, and filter what's on the map so you only see what you need.
 
 ### Personal discoveries
-
-Add your own discoveries directly to the Atlas. Personal markers can be named, categorized, positioned on the map, edited, moved, and given notes so useful information you find can be kept for later matches.
+Add your own discoveries. Personal markers can be named, categorized, positioned, edited, moved and given notes, so what you find is there next match.
 
 ### Match Mode
+Built for the second or two you have during an active match. When Match Mode is on you can:
 
-Match Mode is designed for moments when you only have a second or two during an active match.
+- Tap the map to drop a temporary match marker instantly.
+- Add a name or note later if there's time.
+- Tap any visible marker to cross it out for this match, and tap again to restore it.
+- Turn a temporary marker into a permanent personal discovery.
+- Reset the match to clear temporary pins and cross-outs.
 
-When Match Mode is enabled, you can:
+Resetting Match Mode does **not** remove permanent discoveries, notes or settings.
 
-- Tap the map to place a temporary match marker immediately.
-- Add a name or note later if you have time.
-- Tap an existing visible marker to cross it out for the current match.
-- Tap a crossed-out marker again to restore it.
-- Convert a temporary match marker into a permanent personal discovery.
-- Reset the match to clear temporary pins and temporary cross-outs.
+<p align="center">
+  <img src="docs/images/screenshots/mobile.jpg" alt="Haddonfield Atlas on a phone" width="300">
+</p>
 
-Resetting Match Mode does **not** remove permanent personal discoveries, notes, or settings.
+### Works on your phone
+The Atlas is mobile-friendly with large touch targets, so it works on a phone or tablet beside your screen.
 
-### Local saved data
+### Saved locally, with backups
+Your personal Atlas data is stored in your own browser. Nothing you add changes the public Atlas or shows up for anyone else. Use **Settings → Export backup / Import backup** to move your data to another device or keep a copy safe.
 
-Personal Atlas data is stored locally in the browser on the device you are using. One visitor's personal discoveries do not change the public master Atlas and do not appear for other visitors.
+## Releases
 
-### Backup and restore
+Each version has its own release page with notes and artwork:
 
-Use the Atlas backup tools to export your personal data and import it again later. Backups are useful when moving your saved discoveries to another browser or device or when you simply want a copy kept somewhere safe.
+- [v1.1.0 — Tower Farm Update](docs/releases/v1.1.0.md)
+- v1.0.0 — First release
+
+See the [Changelog](CHANGELOG.md) for everything that changed.
 
 ## Map information and accuracy
 
-Haddonfield Atlas combines researched map information with player discoveries. Not every marker represents a guaranteed spawn, and some locations may be approximate or may vary between matches.
+Haddonfield Atlas combines researched map information with player discoveries. Not every marker is a guaranteed spawn; some locations are approximate or vary between matches. Tower Farm escape positions come from community game-file data and are being confirmed in live matches.
 
-Game updates, randomized elements, incomplete evidence, and community reports can all affect accuracy. If you find something incorrect or discover something that should be included, report it through GitHub Issues so it can be reviewed before the master Atlas is changed.
+Game updates, randomized elements and incomplete evidence can all affect accuracy. If something's wrong or missing, report it so it can be reviewed before the master Atlas changes.
 
 ## Report a problem or discovery
 
-Use the repository's **Issues** section:
+Use **Issues**: https://github.com/Gitjon72/Haddonfield-atlas/issues
 
-https://github.com/Gitjon72/Haddonfield-atlas/issues
+- **Bug Report** — something in the app isn't working.
+- **Map Correction / Discovery** — incorrect, missing or newly discovered map information.
+- **Feature Request** — an idea to improve the Atlas.
 
-Choose the template that best matches what you found:
+Screenshots, video, grid squares and repeatable observations are especially helpful for map reports.
 
-- **Bug Report** for application problems.
-- **Map Correction / Discovery** for incorrect, missing, or newly discovered map information.
-- **Feature Request** for an idea that could improve the Atlas.
+## Credits
 
-Screenshots, video, map/grid coordinates, and repeatable observations are especially useful for map reports.
-
-## Project status
-
-Haddonfield Atlas is actively maintained as map information is tested, corrected, and expanded. The live website keeps the same address as the Atlas is updated.
-
-## About the project
-
-Haddonfield Atlas is a player-made community tool maintained by **Gitjon72**, with AI assistance used during development, research organization, and coding.
+- Built and maintained by **Gitjon72**.
 
 ## Disclaimer
 
-Haddonfield Atlas is an independent, unofficial, non-commercial community project. It is not affiliated with or endorsed by the developers, publishers, or intellectual-property owners of **Halloween: The Game**. Game names, trademarks, artwork, and other game-related intellectual property belong to their respective owners.
+Haddonfield Atlas is an independent, unofficial, non-commercial community project. It is not affiliated with or endorsed by the developers, publishers or intellectual-property owners of **Halloween: The Game**. Game names, trademarks, artwork and other game-related intellectual property belong to their respective owners.
